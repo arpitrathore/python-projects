@@ -10,4 +10,4 @@ Details : [link](https://www.codingforentrepreneurs.com/projects/30-days-python-
 4. Windows specific: [Remote-WSL-Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
 
 ### Installation instructions
-Follow [this](day-01/01-installation.md)
+Follow [this](day-01/README.md)

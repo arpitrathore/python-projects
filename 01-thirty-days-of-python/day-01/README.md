@@ -1,3 +1,6 @@
+## Setup
+Follow the steps below to setup your development environment to follow the examples in this repository
+
 ### 1. Install python
 ```
 # On mac
