@@ -1,3 +1,5 @@
+# Run these in python interpreter (Access it by running python3 in Mac/WSL terminal)
+
 >>> 12 * 31
 
 >>> 12 /31
