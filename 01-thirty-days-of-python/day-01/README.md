@@ -1,8 +1,10 @@
 ## Setup
-Follow the steps below to setup your development environment to follow the examples in this repository
+Follow the steps below to setup your development environment:
 
 ### 1. Install python
 ```
+# Download and install python from python.org for your OS or optionally use package manager-
+
 # On mac
 $ brew install python@3.8
 
