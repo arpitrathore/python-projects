@@ -1,4 +1,5 @@
 ## Notes
+### Topic : Numbers, variables and strings
 
 ### 1. Python documentation 
 Link : [link](https://docs.python.org/3.8/tutorial/introduction.html)
