@@ -1,0 +1,39 @@
+>>> my_list = [1,2,3,4,5]
+
+>>> my_data = {"name": "Arpit Rathore"}
+
+>>> my_data["name"]
+'Arpit Rathore'
+
+>>> my_data = {"name": "Arpit Rathore", "location": "Pune"}
+>>> my_data[0]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 0
+
+>>> my_data.keys()
+dict_keys(['name', 'location'])
+
+>>> list(my_data.keys())
+['name', 'location']
+
+>>> list(my_data.keys())[0]
+'name'
+
+>>> my_data.append({"occ": "coder"})
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'dict' object has no attribute 'append'
+
+>>> my_data["occ"] = "Coder"
+>>> my_data
+{'name': 'Arpit Rathore', 'location': 'California', 'occ': 'Coder'}
+
+>>> user_1 = {"name": "James bond"}
+
+>>> user_2 = {"name": "Ned Stark"}
+
+>>> my_users = [user_1, user_2]
+
+>>> my_users
+[{'name': 'James bond'}, {'name': 'Ned Stark'}]
