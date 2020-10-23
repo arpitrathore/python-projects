@@ -18,6 +18,6 @@ Follow [this](day-01/README.md)
 [Day 02 : Numbers variables and strings](day-02)  
 [Day 03 : Lists and dictionaries](day-03)\
 [Day 04 : Iteration and loops](day-04)\
-[Day 05 : Control flow](day-01)\
+[Day 05 : Control flow](day-05)\
 [Day 06 : String formatting](day-01)\
 [Day 07 : Functions](day-01)
