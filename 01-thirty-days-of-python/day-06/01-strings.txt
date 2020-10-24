@@ -1,0 +1,177 @@
+>>> "hello Arpit, this is cool"
+'hello Arpit, this is cool'
+
+>>> city = "pune"
+>>> age = 32
+>>> f"I live in {city} and i am {age} years old"
+
+
+>>> names = ["Arpit", "Yash", "Nikhil"]
+>>> for name in names:
+...     print(f"Hello {name}")
+... 
+Hello Arpit
+Hello Yash
+Hello Nikhil
+
+>>> msg = "hi there" + " this is cool " + "the end."
+>>> msg
+'hi there this is cool the end.'
+
+>>> msg = "" 
+>>> for i in names:
+...    msg += f"name: {i}"
+... 
+>>> print(msg)
+name: Jname: Aname: E
+
+>>> template = """Hello there,
+... {name} this is an amazing way to do
+... subbing my cool items."""
+
+>>> print(template)
+Hello there,
+{name} this is an amazing way to do
+subbing my cool items.
+
+>>> template.format(name='J')
+'Hello there,\nJ this is an amazing way to do\nsubbing my cool items.'
+
+>>> print('hello world\nagain''hello world\nagain')
+hello world
+againhello world
+again
+
+>>> print(template.format(name='J'))
+Hello there,
+J this is an amazing way to do
+subbing my cool items.
+
+>>> "\n"
+'\n'
+>>> print("\n")
+
+>>> """hello
+... another"""
+'hello\nanother'
+
+>>> "hello\nanother".replace("\n", "")
+'helloanother'
+
+>>> "hello\nanother".replace("\n", " ")
+'hello another'
+
+>>> "hello\nanother".replace("\n", "<br/>")
+'hello<br/>another'
+
+>>> "Hello \
+... this is another line or is it?"
+'Hello this is another line or is it?'
+
+>>> "hello 
+  File "<stdin>", line 1
+    "hello 
+          ^
+SyntaxError: EOL while scanning string literal
+
+>>> "hello \
+... abc
+  File "<stdin>", line 2
+    abc
+      ^
+SyntaxError: EOL while scanning string literal
+
+>>> "http:\\thisisaweomse"
+'http:\\thisisaweomse'
+
+>>> print("http:\\thisisaweomse"
+... )
+http:\thisisaweomse
+
+>>> print("http:\\\\thisisaweomse")
+http:\\thisisaweomse
+
+>>> `\\`
+  File "<stdin>", line 1
+    `\\`
+    ^
+SyntaxError: invalid syntax
+
+>>> "http://www.helloworld.com"
+'http://www.helloworld.com'
+
+>>> "http:\\www.helloworld.com"
+'http:\\www.helloworld.com'
+
+>>> template = "{name} is cool but I want to include {}".format(name='Arpit")
+  File "<stdin>", line 1
+    template = "{name} is cool but I want to include {}".format(name='Arpit")
+                                                                             ^
+SyntaxError: EOL while scanning string literal
+
+>>> template = "{name} is cool but I want to include {}".format(name='Arpit')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: Replacement index 0 out of range for positional args tuple
+
+>>> template = "{name} is cool but I want to include {}".format('abc', name='Arpit')
+
+>>> template
+'Arpit is cool but I want to include abc'
+
+>>> template = "{name} is cool but I want to include {{}}".format(name='Arpit')
+
+>>> template
+'Arpit is cool but I want to include {}'
+
+>>> f"{name} just "
+'E just '
+
+>>> 3.14523423
+3.14523423
+
+>>> pi = 3.14523423
+
+>>> f"{pi}"
+'3.14523423'
+
+>>> "{}".format(pi)
+'3.14523423'
+
+>>> "{:f}".format(pi)
+'3.145234'
+
+>>> "{:f}".format(23)
+'23.000000'
+
+>>> "{:.2f}".format(pi)
+'3.15'
+
+>>> "{:.4f}".format(pi)
+'3.1452'
+
+>>> format()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: format expected at least 1 argument, got 0
+
+>>> format(pi)
+'3.14523423'
+
+>>> format(pi, ".2f")
+'3.15'
+
+>>> pi
+3.14523423
+
+>>> pi * 313223
+985159.70122329
+
+>>> format(pi, ".2f") * 3
+'3.153.153.15'
+
+>>> f"{pi}"
+'3.14523423'
+
+>>> f"{format(pi, '.2f')}"
+'3.15'
