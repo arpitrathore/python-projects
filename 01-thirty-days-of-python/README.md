@@ -23,7 +23,7 @@ Follow [this](day-01/README.md)
 [Day 07 : Functions](day-07)\
 [Day 08 : Importing intenal and external](day-08)\
 [Day 09 : Send email](day-09)\
-[Day 10 : Functions](day-10)\
+[Day 10 : Files IO](day-10)\
 [Day 11 : Functions](day-11)\
 [Day 12 : Functions](day-12)\
 [Day 13 : Functions](day-13)\
