@@ -21,8 +21,8 @@ Follow [this](day-01/README.md)
 [Day 05 : Control flow](day-05)\
 [Day 06 : String formatting](day-06)\
 [Day 07 : Functions](day-07)\
-[Day 08 : Functions](day-08)\
-[Day 09 : Functions](day-09)\
+[Day 08 : Importing intenal and external](day-08)\
+[Day 09 : Send email](day-09)\
 [Day 10 : Functions](day-10)\
 [Day 11 : Functions](day-11)\
 [Day 12 : Functions](day-12)\

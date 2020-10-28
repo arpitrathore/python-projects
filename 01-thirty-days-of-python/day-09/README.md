@@ -1,12 +1,7 @@
 ## Notes : Day-09
-### Topic : Importing intenal and external
+### Topic : Send email and read inbox
 <br>
 
-### 1.  Steps to run
-```
-$ python3 01-thirty-days-of-python/day-08/main.py Arpit arpitrathore.com
-```
-
-### 2. Python documentation 
-[Modules](https://docs.python.org/3.8/tutorial/modules.html)
-
+### 1. Python documentation 
+[Email](https://docs.python.org/3.8/library/email.html)\
+[SMTP Lib](https://docs.python.org/3.8/library/smtplib.html#module-smtplib)
