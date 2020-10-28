@@ -1,4 +1,4 @@
-## Notes
+## Notes : Day-06
 ### Topic : String formatting
 
 ### 1. Python documentation 

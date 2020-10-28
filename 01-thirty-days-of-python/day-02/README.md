@@ -1,4 +1,4 @@
-## Notes
+## Notes : Day-02
 ### Topic : Numbers, variables and strings
 
 ### 1. Python documentation 
