@@ -8,7 +8,7 @@ print(array)
 
 def reverse_normal(arr, first, last):
     while(first < last):
-        arr[first], arr[last] = arr[last], arr[last]
+        arr[first], arr[last] = arr[last], arr[first]
         first += 1
         last -= 1
 
