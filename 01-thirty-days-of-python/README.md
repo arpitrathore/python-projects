@@ -24,8 +24,23 @@ Follow [this](day-01/README.md)
 [Day 08 : Importing intenal and external](day-08)\
 [Day 09 : Send email](day-09)\
 [Day 10 : Files IO](day-10)\
-[Day 11 : Functions](day-11)\
-[Day 12 : Functions](day-12)\
-[Day 13 : Functions](day-13)\
-[Day 14 : Functions](day-14)\
-[Day 15 : Functions](day-15)\
+[Day 11 : Class and state](day-11)\
+[Day 12 : Web scapping](day-12)\
+[Day 13 : Using REST API](day-13)\
+[Day 14 : Web app with Flask, Fast API](day-14)\
+[Day 15 : Video Processing with Moviepy](day-15)\
+[Day 16 : Scrape Password protected app with selenium](day-16)\
+[Day 17 : Data sciene with Jupyter, Pandas and Fast API](day-17)\
+[Day 18 : Price tracking and monitoring on Amazon](day-18)\
+[Day 19 : Spotify API](day-19)\
+[Day 20 : Google maps and Geocoding](day-20)\
+[Day 21 : Twitter API with Tweepy](day-21)\
+[Day 22 : Scraping StackOverflow to Master Python](day-22)\
+[Day 23 : Command line tool](day-23)\
+[Day 24 : SMS Texts with Twilio](day-24)\
+[Day 25 : Python Web App without Framework](day-25)\
+[Day 26 : Python database with SQL](day-26)\
+[Day 27 : Async web scrapping](day-27)\
+[Day 28 : Executable with PyInstaller](day-28)\
+[Day 29 : Regular Expression](day-29)\
+[Day 30 : TBD](day-30)
